@@ -9,9 +9,9 @@ public class LibrarySimulator {
         Scanner scanner = new Scanner(System.in);  
   
         // Predefined members  
-        Member user1 = new Member(1, "User One", 0);  
-        Member user2 = new Member(2, "User Two", 0);  
-        Member user3 = new Member(3, "User Three", 0);  
+        Member user1 = new Member(1, "Saad", 0);  
+        Member user2 = new Member(2, "Saleh", 0);  
+        Member user3 = new Member(3, "Ahmed", 0);  
   
         boolean running = true;  
   
@@ -79,7 +79,7 @@ public class LibrarySimulator {
                 System.out.print("Enter admin password: ");  
                 String password = scanner.nextLine();  
   
-                if (!password.equals("admin")) {  
+                if (!password.equals("ksu2")) {  
                     System.out.println("Invalid password. Access denied.");  
                 } else {  
                     boolean adminActive = true;  
