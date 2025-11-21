@@ -1,6 +1,6 @@
 //Saad Aldossary 446101262
 // Ahmed Alahmeri 446109390
-// Saleh Aldhalhaan 445107183
+// Saleh Aldhalaan 445107183
 public class Member {
 
     // Instance attributes (session + persistent borrowedCount)
